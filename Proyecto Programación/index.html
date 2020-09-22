@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Operations</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">Simple Operations</h1>
+    <div style="text-align: center">
+      <form id="form">
+        <input
+          type="number"
+          id="inputA"
+          placeholder="Enter a number"
+          style="text-align: center"
+        />
+        <select id="dropMenu">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+          <option value="%">%</option>
+        </select>
+        <input
+          type="number"
+          id="inputB"
+          style="text-align: center"
+          placeholder="Enter a number"
+        />
+        <button type="submit" id="StartButton">=</button>
+      </form>
+      <p id="result" style="font-size: 25px"></p>
+    </div>
+  </body>
+  <script src="Logic.js"></script>
+</html>
